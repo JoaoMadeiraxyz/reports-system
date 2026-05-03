@@ -1,0 +1,5 @@
+name: reports-system
+version: '${version}'
+
+main: xyz.joaomadeira.reportsSystem.ReportsSystem
+api-version: '26.1'
