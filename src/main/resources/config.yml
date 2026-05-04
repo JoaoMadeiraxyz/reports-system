@@ -1,0 +1,45 @@
+gui:
+  staff-panel:
+    title: "&6&lStaff Panel - Reports"
+    rows: 5
+    items-per-page: 36
+    access: "staff"
+    items:
+      border:
+        material: STAINED_GLASS_PANE
+        data: 15
+        name: "&7"
+    no-reports-item:
+      material: BARRIER
+      name: "&cNo Reports"
+    report-item:
+      material: PAPER
+      name: "&e{reported}"
+      lore:
+        - "&7Reporter: &f{reporter}"
+        - "&7Reason: &f{reason}"
+        - "&7Date: &f{date}"
+        - ""
+        - "&aClick to resolve"
+    navigation:
+      prev-arrow:
+        material: ARROW
+        name: "&a<< Previous Page"
+      next-arrow:
+        material: ARROW
+        name: "&aNext Page >>"
+      page-indicator:
+        material: PAPER
+        name: "&7Page {current} of {total}"
+
+messages:
+  no-permission: "&cYou don't have permission to do that."
+  player-not-found: "&cPlayer not found."
+  report-submitted: "&aYour report has been submitted successfully."
+  already-reported: "&cThis player has already been reported."
+  self-report: "&cYou cannot report yourself."
+  usage-report: "&cUsage: /report <player> <reason>"
+  no-reports: "&7No pending reports."
+  report-resolved: "&aReport resolved."
+  panel-not-configured: "&cStaff panel is not configured."
+  console-only: "&cOnly players can use this command."

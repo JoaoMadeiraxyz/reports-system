@@ -1,5 +1,11 @@
 name: reports-system
-version: '${version}'
-
+version: '${project.version}'
 main: xyz.joaomadeira.reportsSystem.ReportsSystem
-api-version: '26.1'
+
+commands:
+  report:
+    description: Report a player
+    usage: /<command> <player> <reason>
+  reports:
+    description: Open the staff reports panel
+    usage: /<command>
